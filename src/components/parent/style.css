@@ -1,0 +1,48 @@
+.Container{
+    min-height: 500px;
+    max-height: 700px; 
+    width: 100vw;
+    scroll-behavior: smooth;
+    overflow-y: scroll;
+    display: flex;
+    justify-content: space-around;
+    background-image: url('../../Assets/1.png');
+    background-position: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    position: relative;
+    align-self: center;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 20px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background-color:transparent ;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background-color:transparent ;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background-color:transparent ;
+  } 
+
+  .vertical-line{
+    width: 4px;
+    height: 79%;
+    background-color: #92d1ff;
+    size: cover;
+    position: fixed;
+  }
+
+  .margin-top:not(:first-child){
+    margin-top: 2em;
+  }

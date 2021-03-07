@@ -1,0 +1,54 @@
+.card{
+    position: absolute;
+}
+
+.card-left{
+    margin-left:calc(690px / 2 - 13.5em);
+}
+
+.card-right{
+    margin-right:calc(690px / 2 + 19em);
+}
+.card-container{
+    width: 15em;
+    height: 62px;
+    background: #fff;
+    margin-top: 10px;
+    padding: 5px 7px 13px 12px;
+    font-size: 1rem;
+    border-radius: 7px;
+    border: 1px solid #92d1ff;
+    position: absolute;
+}
+
+
+.card-left h5{
+    margin: 0px !important;
+    color:#92d1ff;
+    text-align: start;
+}
+
+.card-right h5{
+    margin: 0px !important;
+    color:#92d1ff;
+    text-align: end;
+}
+
+h5:nth-child(1){
+    margin: 5px !important;
+}
+
+.dot-line{
+    position: absolute;
+    top: calc(62px / 2);
+ 
+}
+
+.dot-line-left{
+    left: -71px;
+}
+
+.dot-line-right{
+    left: 15.9em;
+}
+
